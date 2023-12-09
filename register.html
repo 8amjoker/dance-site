@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Norican&amp;family=Poppins:wght@300;400;500;600;700;800&amp;display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+<link rel="stylesheet" href="assets/css/slick.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+    <title>register</title>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+	 background: linear-gradient(to right, #ffffff, #f0f0f0); /* Gradient background */
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    width: 300px;
+    margin: 0 auto;
+    margin-top:3rem;
+}
+.form .name h2{
+    color: orangered;
+    font-weight: bold;
+}
+.form .flex{
+    display: flex;
+    justify-content: space-between;
+}
+.form .flex p{
+    font-size: 1.2rem;
+    font-weight:1000;
+    letter-spacing: 0.7px;
+    color:rgb(13, 13, 27);
+}
+.form .flex a{
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.input-form{
+    display:flex;
+    flex-direction: column;
+    gap:1rem
+}
+.input-form .box{
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem
+}
+.input-form .box label{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.input-form .box input{
+    outline: none;
+    border-radius: 0.3rem;
+    border-width: 1.4px;
+    padding: 0.9rem 0.4rem;
+}
+.btn button{
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background:rgb(187, 55, 7);
+    width: 100%;
+    padding: 0.6rem 0.4rem;
+    border-radius:0.3rem;
+}
+.redirect{
+    margin: 0 auto;
+}
+.redirect a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(156, 107, 107);
+    cursor: pointer;
+}
+    </style>
+</head>
+
+<body>
+  <div class="popup-search-box d-none d-lg-block"><button class="searchClose"><i class="fal fa-times"></i></button>
+    <form action="#"><input type="text" placeholder="What are you looking for?"> <button type="submit"><i
+                class="fal fa-search"></i></button></form>
+</div>
+<div class="th-menu-wrapper">
+    <div class="th-menu-area text-center">
+        <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+        <div class="mobile-logo"><a href="#"style="text-decoration: none; font-size: 1.5rem; color: black;">Dancers4Life</a></div>
+        <div class="th-mobile-menu">
+            <ul>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#service-sec">Services</a></li>
+                <li><a href="#blog-sec">Blog</a></li>
+                <li><a href="#contact-sec">Contact Us</a></li>
+                <div class="btn"><button><a href="#" style="color: white;">Register</a></button></div>
+            </ul>
+        </div>
+    </div>
+</div>
+  <header class="th-header header-layout1">
+    <div class="header-top">
+        <div class="container">
+            <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
+            </div>
+        </div>
+    </div>
+    <div class="sticky-wrapper">
+        <div class="menu-area">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <div class="header-logo"><a href="#" style="text-decoration: none; font-size: 1.5rem; color: black;">Dancers4Life</a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <nav class="main-menu d-none d-lg-inline-block">
+                            <ul>
+                                <li><a href="#classes">Classes</a></li>
+                                <li><a href="#service-sec">Services</a></li>
+                                <li><a href="#blog-sec">Blog</a></li>
+                                <li><a href="#contact-sec">Contact Us</a></li>
+                                <div class="btn"><button><a href="#" style="color: white;">Register</a></button></div>
+                            </ul>
+                        </nav><button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
+                                class="far fa-bars"></i></button>
+                    </div>
+                </button>  </div>
+            </div>
+        </div>
+        <div class="logo-bg"></div>
+        <div class="menu-bg"></div>
+    </div>
+</header>
+    <div class="form">
+
+      <p style="text-align: center; font-size: 1.5rem; font-weight: bold;">Sign up</p>
+
+        <div class="input-form">
+            <div class="box">
+                <label>Full  Name</label>
+                <input type="text" placeholder="full name">
+            </div>
+
+            <div class="box">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Phone">
+            </div>
+
+
+            <div class="box">
+                <label>Email</label>
+                <input type="email" placeholder="Email address">
+            </div>
+
+            <div class="box">
+                <label>Password</label>
+                <input type="password" placeholder="Password">
+            </div>
+        </div>
+
+        <div class="btn">
+            <button>Register</button>
+        </div>
+
+        <div class="redirect">
+          <a href="login.html">Login</a>
+        </div>
+
+    </div>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/tweenmax.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
