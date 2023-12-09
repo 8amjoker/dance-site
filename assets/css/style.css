@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /*
-Author: light potato
+
+Description: Danza - dance
+Author: c0de-8
+Version: 1.0.0
 */
 /*=================================
     CSS Index Here
@@ -84,7 +87,7 @@ Author: light potato
 /*------------------- 1.3. Variable-------------------*/
 :root {
   --theme-color: #EB0029;
-  --title-color: #FF8C00;
+  --title-color: #161921;
   --body-color: #525960;
   --smoke-color: #F5F5F5;
   --smoke-color2: #F7F7F7;
@@ -4850,7 +4853,7 @@ a.text-theme:hover,
 }
 
 .footer-widget {
- 
+  margin-bottom: 50px;
 }
 
 .footer-widget,
